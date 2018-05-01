@@ -1,7 +1,7 @@
 
 //array that holds all the 'friends' that have taken the survey
 //initialize starting with 'dummy' data
-var friendsArr = [
+var friendArr = [
     {
       name: 'Poopy McScoopy',
       profilePic: 'https://images-na.ssl-images-amazon.com/images/I/31p63WXzh2L.jpg',
