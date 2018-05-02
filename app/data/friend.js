@@ -3,8 +3,8 @@
 //initialize starting with 'dummy' data
 var friendArr = [
     {
-      name: 'Poopy McScoopy',
-      profilePic: 'https://images-na.ssl-images-amazon.com/images/I/31p63WXzh2L.jpg',
+      name: 'Mr.Hankey',
+      profilePic: 'https://www.models-resource.com/resources/big_icons/7/6646.png',
       scores: [
         "4",
         "5",

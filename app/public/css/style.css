@@ -16,31 +16,10 @@
 }
 
 label {
-    font-size: 1rem;
-}
+   font-size: 1rem;
+} 
 
 .select-wrapper input.select-dropdown {
     font-size: .875rem;
 }
 
-li>a, .dropdown-content li>span {
-    font-size: .875rem;
-    color: #f44336;
-}
-
-.select-wrapper input.select-dropdown {
-    border-bottom: 1px solid #f44336;
-    margin: 0 0 15px 0;
-}
-
-element.style {
-    margin-bottom: 30px;
-    border-bottom: 1px solid red;
-    height: 36px;
-}
-
-#upload {
-    margin-bottom: 30px;
-    border-bottom: 1px solid red;
-    height: 36px;
-}

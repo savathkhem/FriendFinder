@@ -20,186 +20,201 @@
             width: 500px;
         }
 
-        .btn {
-            color: #1b5e20;
+        .btn-large {
+            /* color: #1b5e20; */
+            border-radius: 10px;
         }
 
         .btn-floating {
-            color: #1b5e20;
+            color: #0d2b0f;
+        }
+
+        label {
+            font-size: 1rem;
+        }
+
+        h6 {
+            font-weight: bold;
+            color:#1b5e20;
         }
     </style>
 
 </head>
 
 <body>
-    <main>
-    <div class='card-panel grey lighten-2 col s12'>
-        <div class="container">
-            <h2 class="center survey">Survey Questions</h2>
-            <hr>
-            <h6>About You</h6>
-            <div class="row">
-                <form class="col s12" id="myForm">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="name" type="text" class="validate formInput" required>
-                            <label for="password">Name</label>
+        <div class='card-panel grey lighten-2 col s12'>
+            <div class="container z-depth-5">
+                <h2 class="center survey">Survey Questions</h2>
+                <hr>
+                <h4>About You</h4>
+                <div class="row">
+                    <form class="col s12" id="myForm">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" type="text" class="validate formInput" required>
+                                <label for="password">Name</label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row last">
-                        <div class="input-field col s12">
-                            <input id="pic" type="text" class="validate formInput" required>
-                            <label for="email">Photo</label>
+                        <div class="row last">
+                            <div class="input-field col s12">
+                                <input id="pic" type="text" class="validate formInput" required>
+                                <label for="email">Photo</label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 1</h6>
-                        <label>Do you like cake?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q1">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 1</h6>
+                            <label>Do you like cake?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q1">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 2</h6>
-                        <label>Do you hate cake?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q2">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 2</h6>
+                            <label>Do you hate cake?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q2">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 3</h6>
-                        <label>Do you like milk?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q3">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 3</h6>
+                            <label>Do you like milk?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q3">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 4</h6>
-                        <label>Do you drink milk with cake?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q4">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 4</h6>
+                            <label>Do you drink milk with cake?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q4">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 5</h6>
-                        <label>Do you want to stop this survery?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q5">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 5</h6>
+                            <label>Do you want to stop this survery?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q5">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 6</h6>
-                        <label>Do you think we will find you a friend?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q6">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 6</h6>
+                            <label>Do you think we will find you a friend?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q6">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 7</h6>
-                        <label>Are you doubting our state of the art friend designation algorithm?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q7">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 7</h6>
+                            <label>Are you doubting our state of the art friend designation algorithm?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q7">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 8</h6>
-                        <label>Do you think there will be cake after you answer the last question?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q8">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 8</h6>
+                            <label>Do you think there will be cake after you answer the last question?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q8">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 9</h6>
-                        <label>How dissapointed are you right now that there is no cake?</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q9">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 9</h6>
+                            <label>How dissapointed are you right now that there is no cake?</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q9">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <h6>Question 10</h6>
-                        <label>You generally stay relaxed under pressure</label>
-                        <div class="input-field col s12">
-                            <select class="chosen" id="q10">
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
+                        <div class="row">
+                            <h6>Question 10</h6>
+                            <label>You generally stay relaxed under pressure</label>
+                            <div class="input-field col s12">
+                                <select class="chosen" id="q10">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <button class="green darken-4 btn-large waves-effect waves-light" type="submit" name="action" id="submit">Submit
-                        <i class="material-icons right green darken-4">settings_input_svideo</i>
-                    </button>
-                </form>
+                        <button class="green darken-4 btn-large waves-effect waves-light" type="submit" name="action" id="submit">Submit
+                            <i class="material-icons right">settings_input_svideo</i>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-    </main>
+        <div class="center">
+            <p>
+                <a href='/api/friend'>API Friends List</a> |
+                <a href='https://github.com/savathkhem/FriendFinder' target='_blank'>GitHub Repo</a> |
+                <a href='/'>Home</a>
+            </p>
+        </div>
 
     <!-- MODAL AREA -->
     <div id="modal1" class="modal">
@@ -210,7 +225,7 @@
             <h3>Your Best Friend Is</h3>
             <hr>
             <h6 id="matchName"></h6>
-            <img id="matchImg" onError="this.src='https://blog.sqlauthority.com/i/a/errorstop.png'" height="300px" width="300px"></img>
+            <img id="matchImg" onError="https://www.models-resource.com/resources/big_icons/7/6646.png" height="300px" width="300px"></img>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
